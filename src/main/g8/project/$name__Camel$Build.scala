@@ -1,10 +1,10 @@
 import sbt._
 import sbt.Keys._
 
-object ProjectBuild extends Build {
+object $name;format="Camel"$Build extends Build {
 
-  lazy val root = Project(
-    id = "root",
+  lazy val $name;format="camel"$ = Project(
+    id = "$name;format="norm"$",
     base = file("."),
     settings = Project.defaultSettings ++ Seq(
       name := "$name$",
